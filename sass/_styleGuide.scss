@@ -1,0 +1,26 @@
+.swatches {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+}
+
+.swatch{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	display: block;
+}
+
+.swatch--orange{
+	background: $orange;
+}
+.swatch--darkBlue{
+	background: $darkBlue;
+}
+.swatch--yellow{
+	background: $yellow;
+}
+.swatch--grey{
+	background: $grey;
+}
+

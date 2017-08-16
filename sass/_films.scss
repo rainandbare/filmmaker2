@@ -1,0 +1,52 @@
+.main-films {
+	section{
+		padding: 20px 0px;
+	}
+}
+
+a div.overlay{
+	padding: 10px 20px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.6);
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	visibility: hidden;	
+	transition: all 0.5s ease;
+	h2.film-title{
+		color: white;
+		font-size: 33px;
+		font-family: $font2;
+		margin: 0;
+		text-align: center;
+	}
+	p{
+		font-family: $font1; 
+		line-height: 30px;
+		color: white;
+	}
+}
+.overlay.show, .overlay.show > *{
+	opacity: 1;
+	visibility: visible;
+	cursor: pointer;
+}
+.films{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+.film { 
+	width: calc(50% - 40px);
+	height: 320px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	margin: 27px 15px 0px;
+}

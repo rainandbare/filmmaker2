@@ -1,0 +1,90 @@
+
+@media (max-width: 950px) {	
+	section.film-content {
+    	flex-flow: column nowrap;
+	}
+	section.film-content>* {
+	    width: 100%;
+	}
+
+	.layoutFlexWrapper{
+		flex-flow: column nowrap;
+	}
+	.half, .seventy, .thirty, .third{
+		width: 100%;
+	}
+	.films {
+    	flex-flow: column nowrap;
+	}
+	.film {
+		width: 100%;
+		margin: 10px 0;
+
+	}	
+	a div.overlay {
+		opacity: 1;
+    	visibility: visible;
+    	background-color: rgba(0,0,0,.4);
+	}
+	main.blog .content {
+    	width: 100%;
+    	padding-right: 20px;
+	}
+	.sidebar {
+	    width: 100%;
+	    float: none;
+	    background-color: $lightestGrey;
+	    padding: 10px;
+	    ul{
+	    	padding: 20px;
+	    }
+	}
+}
+
+@media (max-width: 450px) {
+	h1 {
+	    font-size: 30px;
+	    margin: 15px 0px;
+	}
+	section.film-content>* {
+	    padding: 0px;
+	}
+	p{
+		line-height: 30px;
+
+	}
+	div.container.single-films-wrapper p {
+	    padding-bottom: 0px;
+	    font-size: 15px;
+	}
+	.buy-me select, .buy-me-button {
+    	width: 100%;
+	}
+	main.single-films section.lower {
+		padding: 0 0 35px 0;
+	}
+	.carousel-cell {
+		height: 215px;
+	}
+	.slideshow-lower .main-carousel {
+		height: 215px;
+	}
+	.menu ul li a, ul.menu li a {
+	    width: 36px;
+	    font-size: 12px;
+	}
+	div.menu-main{
+    	left: 0;
+    	width: 100%;
+	}
+	div.menu-svg {
+		display: none;
+	}
+	.menu ul, ul.menu {
+    	justify-content: space-around;
+	}
+	h3{
+		font-size: 18px;
+	}
+
+}

@@ -1,0 +1,48 @@
+section#contact{ 
+	background: $black;
+	color: white;
+	h3{	
+		color: white;
+		padding: 0;
+		margin: 0 0;
+
+	}
+	p{
+		font-family: $font2; 
+		line-height: 19px;
+		font-weight: 200;
+	}
+	.email, .phone{
+		display: inline-block;
+		&:after{
+			content:"";
+			display: block;
+			height: 1px;
+			background-color: white;
+			width: 100%;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+		}
+	}
+	a{
+		color: white;
+		position: relative;
+		width: 100%;
+	}
+	.contact-group{
+		padding: 20px 0px;
+		ul.menu.social{
+			justify-content: flex-start;
+			li a i.fa {
+				font-size: 30px;
+				transition: all 0.5s ease;
+				color: white;
+			}
+			li a i.fa:hover {
+				color: white;
+			}
+		} 
+	}
+}

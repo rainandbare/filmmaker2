@@ -1,0 +1,24 @@
+// Google Fonts
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,400,400i);
+// @import url(https://fonts.googleapis.com/css?family=Arimo);
+
+
+
+@font-face {
+  font-family: 'Univers';
+  src:  url('./fonts/univers-blackext-webfont.woff2') format('woff2'),
+        url('./fonts/univers-blackext-webfont.woff') format('woff');
+}
+// @font-face {
+//     font-family: 'Montserrat Extra Light';
+//     src: url('fonts/montserrat-extralight-webfont.woff2') format('woff2'),
+//          url('fonts/montserrat-extralight-webfont.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+
+// }
+
+// Font Variables
+$font2: 'Roboto', sans-serif;  
+$font1: 'Univers', sans-serif;
+
